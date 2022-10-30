@@ -1,0 +1,281 @@
+ul {
+    list-style: none;
+}
+
+.navbar  {
+    border-bottom: 4px solid rgba(44, 142, 255, 0.311);
+}
+/* header */
+header {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)) , url(../images/home.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 150px;
+} 
+@media (max-width:767px) {
+    header {
+        height: 800px;
+    
+    }
+}
+
+header ul li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 990px) {
+    header ul li {
+    font-size: 14px;
+    }
+}
+
+@media (max-width:767px) {
+    header ul li  {
+        font-size: 10px;
+        margin-bottom: 30px;
+    }
+}
+header ul li i {
+    font-size: 30px; margin-right: 20px;
+    background-color: white;
+    color: rgb(40, 40, 72);
+    font-weight: bold;
+    padding: 3px;
+}
+header h1 {
+    padding-bottom: 15px;
+}
+
+@media (max-width:990px) {
+    header h1 {
+    font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    header h1 {
+    font-size: 15px;
+    text-align: center;
+}
+}
+
+header .right {
+    background-color: rgba(67, 141, 202, 0.653);
+    padding: 20px;
+}
+header .right h2 {
+    text-align: center;
+    font-size: 22px;
+}
+header .right p{
+    text-align: center;
+    font-size: 13px;
+
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+input[type=text] , input[type=password] , input[type=email]{
+    width: 100%;
+    border-radius: 5px;
+    padding: 6px;
+    border: none;
+    padding-left: 15px;
+}
+.right .btn {
+    width: 100%;
+}
+
+input::placeholder {
+    color: rgb(163, 150, 150);
+}
+/* header */
+
+
+
+/* section-explore */
+section {
+    background-color: #333;
+}
+section .container {
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+}
+
+@media (max-width:767px) {
+    section .container p {
+        font-size: 12px;
+        padding: 0 20px;
+    }
+}
+section .container h2 {
+    font-weight: 400;
+}
+section .content {
+    
+    width: 100%;
+}
+/* section-explore */
+
+
+/* connect page */
+.connect {
+    padding: 50px 0;
+}
+.connect .left img {
+    width: 500px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+@media (max-width:1030px) {
+    .connect .left img {
+    width: 450px;
+    height: 400px;
+}
+}
+@media (max-width:992px) {
+    .connect .left img{
+        width: 350px;
+        height: 400px;
+}
+}
+@media (max-width:767px) {
+    .connect .left img {
+    width: 300px;
+    height: 200px;
+}
+}
+
+.right .head h3{
+    color: #777;
+}
+.right .head p{
+    font-size: 14px;
+}
+.right ul {
+margin-top: 40px;
+}
+.right ul li {
+    margin-bottom: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+} 
+.right ul li i {
+    background-color: rgb(53, 45, 45);
+    color:white;
+    font-size: 30px;
+    padding: 3px;
+    border-radius: 5px;
+} 
+/* connect page */
+
+
+/* create-section */
+.create {
+    background-color: rgb(20, 134, 255);
+}
+.create .container {
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+}
+
+@media (max-width:767px) {
+    .create .container p {
+        font-size: 12px;
+        padding: 0 20px;
+    }
+}
+.create .container h2 {
+    font-weight: 400;
+}
+.create .content {
+    
+    width: 100%;
+}
+/* create-section */
+
+
+/* passion-section */
+.passion {
+    padding: 50px 0;
+    background-color: rgb(53, 45, 45);
+}
+.passion .left img {
+    width: 500px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+@media (max-width:1030px) {
+    .passion .left img {
+    width: 450px;
+    height: 400px;
+}
+}
+@media (max-width:992px) {
+    .passion .left img{
+        width: 350px;
+        height: 400px;
+}
+}
+@media (max-width:767px) {
+    .passion .left img {
+    width: 300px;
+    height: 200px;
+}
+}
+
+.passion .right .head h3{
+    color: white;
+}
+.passion .right .head p{
+    font-size: 14px;
+    color: white;
+}
+.passion .right ul {
+margin-top: 40px;
+}
+.passion .right ul li {
+    margin-bottom: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: white;
+} 
+.passion .right ul li i {
+    background-color: white;
+    color:rgb(0, 157, 255);
+    font-size: 30px;
+    padding: 3px;
+    border-radius: 5px;
+} 
+/* passion-section */
+
+
+
+/* footer */
+footer {
+    background-color: #343A40;
+}
+footer .content{
+    padding: 40px 0 20px;
+    text-align: center;
+    color: white;
+}
+footer .content h2{
+    font-weight: 400;
+}
